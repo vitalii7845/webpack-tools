@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 32px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: coral;
+}
+
+.list {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+}
+.list__item {
+  margin-bottom: 8px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: wheat;
+}
+.list-item:last-child {
+  margin-bottom: 0;
+}
+.list-item_done {
+  opacity: 0.7;
+}
+.list-item_done .list-item__text {
+  text-decoration: line-through;
+}
+.list-item__checkbox {
+  margin-right: 8px;
+}
+.list-item__delete-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  margin-left: auto;
+  text-decoration: none;
+  padding: 0;
+  transform: rotate(45deg);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.7;
+}
+.list-item__delete-btn::before {
+  content: "+";
+}
+
+.btn {
+  height: 32px;
+  min-width: 64px;
+  margin-left: 16px;
+  border-radius: 8px;
+  border: 3px solid #ccc;
+  cursor: pointer;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.task-input {
+  flex: 1;
+  height: 32px;
+  border-radius: 8px;
+  border: 3px solid #ccc;
+}
+
+/*# sourceMappingURL=styles.css.map */
