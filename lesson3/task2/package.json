@@ -1,7 +1,6 @@
 {
   "name": "task2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -25,5 +24,6 @@
   },
   "dependencies": {
     "core-js": "^3.24.1"
-  }
+  },
+  "description": ""
 }
