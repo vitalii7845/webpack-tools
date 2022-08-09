@@ -1,0 +1,16 @@
+// @import './layout.scss';
+// @import './list.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
